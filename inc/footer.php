@@ -1,73 +1,71 @@
-<!-- ========================= FOOTER ========================= -->
-<footer class="section-footer border-top">
+<!-- footer -->
+<div class="footer-area">
 		<div class="container">
-			<section class="footer-top padding-y">
-				<div class="row">
-					<aside class="col-md col-6">
-						<h6 class="title">Brands</h6>
-						<ul class="list-unstyled">
-							<li> <a href="#">Adidas</a></li>
-							<li> <a href="#">Puma</a></li>
-							<li> <a href="#">Reebok</a></li>
-							<li> <a href="#">Nike</a></li>
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box about-widget">
+						<h2 class="widget-title">About us</h2>
+						<p>Ut enim ad minim veniam perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box get-in-touch">
+						<h2 class="widget-title">Get in Touch</h2>
+						<ul>
+							<li>34/8, East Hukupara, Gifirtok, Sadan.</li>
+							<li>support@fruitkha.com</li>
+							<li>+00 111 222 3333</li>
 						</ul>
-					</aside>
-					<aside class="col-md col-6">
-						<h6 class="title">Company</h6>
-						<ul class="list-unstyled">
-							<li> <a href="#">About us</a></li>
-							<li> <a href="#">Career</a></li>
-							<li> <a href="#">Find a store</a></li>
-							<li> <a href="#">Rules and terms</a></li>
-							<li> <a href="#">Sitemap</a></li>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box pages">
+						<h2 class="widget-title">Pages</h2>
+						<ul>
+							<li><a href="index.php">Home</a></li>
+							<li><a href="about.php">About</a></li>
+							<li><a href="services.php">Shop</a></li>
+							<li><a href="news.php">News</a></li>
+							<li><a href="contact.php">Contact</a></li>
 						</ul>
-					</aside>
-					<aside class="col-md col-6">
-						<h6 class="title">Help</h6>
-						<ul class="list-unstyled">
-							<li> <a href="#">Contact us</a></li>
-							<li> <a href="#">Money refund</a></li>
-							<li> <a href="#">Order status</a></li>
-							<li> <a href="#">Shipping info</a></li>
-							<li> <a href="#">Open dispute</a></li>
-						</ul>
-					</aside>
-					<aside class="col-md col-6">
-						<h6 class="title">Account</h6>
-						<ul class="list-unstyled">
-							<li> <a href="#"> User Login </a></li>
-							<li> <a href="#"> User register </a></li>
-							<li> <a href="#"> Account Setting </a></li>
-							<li> <a href="#"> My Orders </a></li>
-						</ul>
-					</aside>
-					<aside class="col-md">
-						<h6 class="title">Social</h6>
-						<ul class="list-unstyled">
-							<li><a href="#"> <i class="fab fa-facebook"></i> Facebook </a></li>
-							<li><a href="#"> <i class="fab fa-twitter"></i> Twitter </a></li>
-							<li><a href="#"> <i class="fab fa-instagram"></i> Instagram </a></li>
-							<li><a href="#"> <i class="fab fa-youtube"></i> Youtube </a></li>
-						</ul>
-					</aside>
-				</div> <!-- row.// -->
-			</section> <!-- footer-top.// -->
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box subscribe">
+						<h2 class="widget-title">Subscribe</h2>
+						<p>Subscribe to our mailing list to get the latest updates.</p>
+						<form action="https://technext.github.io/fruitkha/index.php">
+							<input type="email" placeholder="Email">
+							<button type="submit"><i class="fas fa-paper-plane"></i></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end footer -->
 
-			<section class="footer-bottom border-top row">
-				<div class="col-md-2">
-					<p class="text-muted"> &copy 2019 Company name </p>
+		<!-- copyright -->
+		<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12">
+					<p>Copyrights &copy; 2019 - <a href="https://imransdesign.com/">Imran Hossain</a>,  All Rights Reserved.<br>
+						Distributed By - <a href="https://themewagon.com/">Themewagon</a>
+					</p>
 				</div>
-				<div class="col-md-8 text-md-center">
-					<span class="px-2">info@pixsellz.io</span>
-					<span class="px-2">+879-332-9375</span>
-					<span class="px-2">Street name 123, Avanue abc</span>
+				<div class="col-lg-6 text-right col-md-12">
+					<div class="social-icons">
+						<ul>
+							<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+						</ul>
+					</div>
 				</div>
-				<div class="col-md-2 text-md-right text-muted">
-					<i class="fab fa-lg fa-cc-visa"></i>
-					<i class="fab fa-lg fa-cc-paypal"></i>
-					<i class="fab fa-lg fa-cc-mastercard"></i>
-				</div>
-			</section>
-		</div><!-- //container -->
-	</footer>
-	<!-- ========================= FOOTER END // ========================= -->
+			</div>
+		</div>
+	</div>
+	<!-- end copyright -->
