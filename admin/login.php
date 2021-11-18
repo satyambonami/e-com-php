@@ -6,21 +6,13 @@
         $email= strtolower(mysqli_real_escape_string($conn,$_POST['email']));
         $pass=mysqli_real_escape_string($conn,$_POST['password']);
         $password=hash('sha512',$pass.HASH_KEY);
-        $checkAdmin=mysqli_query($conn,"SELECT * FROM `eccom_user` WHERE `email`='$email' AND `password`='$password' AND status>0");
+        $checkAdmin=mysqli_query($conn,"SELECT * FROM `eccom_user` WHERE `email`='$email' AND `pass`='$password' AND status>0");
         if(mysqli_num_rows($checkAdmin)>0){
-            $adminData=mysqli_fetch_assoc($checkAdmin);
-            $_SESSION['adi']=$adminData;
-            if(isset($_SESSION['adi'])){
-                unset($_SESSION['adi']['password']);
-                $_SESSION['toast']['msg']="Successfully logged In.";
                 header("location:index.php");
-                exit();
-            }else{
-                $_SESSION['toast']['msg']='Something went wrong, Please try again.';
-            }
         }else{
-            $_SESSION['toast']['msg']='Currently you are not registered with us, Or your account is deactivated. <br> Please contact to senior admin.';
+            echo 'Something went wrong, Please try again.';
         }
+        
     }
 
 ?>

@@ -30,13 +30,13 @@ if($conn!=true){
 	echo '<script> alert("Could not connect to database.");</script>';
 }
 
-// $genDataQ = mysqli_query($conn, "SELECT key_name, key_value FROM `pro_general` WHERE key_name!=''");
-// while($genData = mysqli_fetch_assoc($genDataQ)){
-// 	$_SESSION['general'][$genData['key_name']]= $genData['key_value'];
-// }
+$genDataQ = mysqli_query($conn, "SELECT key_name, key_value FROM `pro_general` WHERE key_name!=''");
+while($genData = mysqli_fetch_assoc($genDataQ)){
+	$_SESSION['general'][$genData['key_name']]= $genData['key_value'];
+}
 
-// define('SITE_NAME', $_SESSION['general']['site_name']);
 define('SITE_NAME', 'Eccomerce site');
+
 
 
 
